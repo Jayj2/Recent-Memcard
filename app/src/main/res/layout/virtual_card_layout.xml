@@ -1,0 +1,21 @@
+<!-- virtual_card_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/teal_200"> <!-- You can customize the card background -->
+
+    <TextView
+        android:id="@+id/cardNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Add more views here to display additional information on the card as needed -->
+</LinearLayout>
